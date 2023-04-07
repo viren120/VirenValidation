@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#header-id {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  color: #007bff;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#main-form-div {
+  border: 1px solid #14579e;
+  border-radius: 10px;
+  width: 500px;
+  height: 780px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  margin-top: -35px;
+  overflow: auto;
+}
+
+input[type="text"],input[type="password"] ,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  height: 38px;
+  font-size: 17px;
+  padding: 0.5rem;
+  margin-left: 333px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+}
+
+button[type="submit"]:hover {
+  background-color: #14579e;
+  color: #fff;
+}
+
+#location,
+#desc,
+#country,
+#state,
+#city {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  outline: none;
+}
+
+#main-table-div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table-country,
+#table-state,
+#table-city {
+  margin-top: 15px;
+  color: white;
+  width: 131px;
+  background-color: #007bff;
+}
+
+#section-Tag {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: -10px;
+}
+
+.tag-select {
+  width: 300px;
+}
+
+#submit-btn,
+#add-tag-btn,
+#remove-btn {
+  height: 38px;
+  font-size: 17px;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+}
+
+#submit-btn:hover,
+#add-tag-btn:hover,
+#remove-btn:hover {
+  background-color: #14579e;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+  #main-form-div,
+  #main-table-div {
+    padding: 1rem;
+  }
+
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+}
+.form-label-location{
+  margin-left: 4px;
+}
+.form-label-description , .form-label-country , .form-label-state , .form-label-city{
+  margin-left: 4px;
+}
+.tag-submit-btn , .add-tag-btn , .remove-tag-btn{
+  margin-left: 10px;
+}
+#open-form-btn{
+  height: 38px;
+    font-size: 17px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+    margin-right: 200px;
+}
+.btnCloseForm {
+  height:25px;
+  width: 20px;
+  border: 1px solid #14579e ;
+  border-radius: 5px;
+  margin-left: 410px;
+  margin-bottom: 11px;
+}
+#location-main-div , #desc-main-div , #country-main-div,#state-main-div ,#city-main-div{
+margin-bottom: 16px;
+}
